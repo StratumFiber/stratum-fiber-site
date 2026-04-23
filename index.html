@@ -7,7 +7,7 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #0f172a;
+      background: linear-gradient(180deg, #0a0f1f 0%, #111827 100%);
       color: white;
       text-align: center;
     }
@@ -16,41 +16,66 @@
       max-width: 900px;
       margin: auto;
     }
-    h1 { font-size: 48px; }
+    .logo {
+      width: 240px;
+      margin-bottom: 10px;
+    }
+    .tagline {
+      font-size: 20px;
+      color: #60a5fa;
+      margin-bottom: 20px;
+    }
     p { color: #cbd5f5; font-size: 18px; }
     .btn {
       display: inline-block;
-      margin: 10px;
-      padding: 12px 20px;
-      background: white;
-      color: black;
+      margin: 20px 10px;
+      padding: 14px 24px;
+      background: #1e6eff;
+      color: white;
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 8px;
       font-weight: bold;
+      font-size: 16px;
     }
     .section {
       margin-top: 60px;
+    }
+    h2 {
+      margin-bottom: 10px;
     }
   </style>
 </head>
 <body>
 
 <div class="container">
-  <h1>Stratum Fiber Group</h1>
+
+  <!-- LOGO -->
+  <img src="logo.png" alt="Stratum Fiber Group Logo" class="logo" />
+
+  <!-- TAGLINE -->
+  <div class="tagline">
+    Underground Fiber Infrastructure Experts
+  </div>
+
+  <!-- DESCRIPTION -->
   <p>Underground fiber optic infrastructure, trenching, and conduit installation.</p>
 
+  <!-- BUTTON -->
   <a class="btn" href="#">Request a Quote</a>
 
+  <!-- SERVICES -->
   <div class="section">
     <h2>Services</h2>
     <p>Fiber Installation • Directional Boring • Utility Trenching • Conduit Systems</p>
   </div>
 
+  <!-- CONTACT -->
   <div class="section">
     <h2>Contact</h2>
     <p>Email: contact@stratumfibergroup.com</p>
     <p>Based in North Carolina</p>
   </div>
+
 </div>
 
 </body>
